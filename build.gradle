@@ -13,8 +13,7 @@ dependencies {
     compileOnly 'org.projectlombok:lombok:1.18.12'
     annotationProcessor 'org.projectlombok:lombok:1.18.12'
 
-    // https://mvnrepository.com/artifact/org.springframework/spring-context
-    compile group: 'org.springframework', name: 'spring-context', version: '5.2.6.RELEASE'
+    implementation group: 'org.springframework', name: 'spring-context', version: '5.2.6.RELEASE'
 
 
     testImplementation('org.junit.jupiter:junit-jupiter-api:5.4.2')
