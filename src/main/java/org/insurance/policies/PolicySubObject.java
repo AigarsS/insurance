@@ -1,3 +1,5 @@
+package org.insurance.policies;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

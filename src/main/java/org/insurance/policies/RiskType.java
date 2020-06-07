@@ -1,3 +1,5 @@
+package org.insurance.policies;
+
 import java.util.HashMap;
 import java.util.Map;
 

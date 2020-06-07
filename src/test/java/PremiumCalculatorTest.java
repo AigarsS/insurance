@@ -1,9 +1,8 @@
-import org.junit.jupiter.api.BeforeAll;
+import org.insurance.policies.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 class PremiumCalculatorTest {
     private PremiumCalculator premiumCalculator;
@@ -27,7 +26,7 @@ class PremiumCalculatorTest {
         premiumCalculator = new PremiumCalculator();
         Double premium = premiumCalculator.calculate(policy);
 
-        assertThat(premium).isEqualTo(2.29);
+        assertThat(premium).isEqualTo(2.28);
     }
 
     @Test
