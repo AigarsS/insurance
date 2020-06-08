@@ -12,7 +12,7 @@ import java.util.List;
 @NoArgsConstructor
 public class Policy {
     private String number;
-    private String status;
+    private Status status;
     private List<PolicyObject> policyObjects = new ArrayList<>();
 
     public void addPolicyObject(PolicyObject policyObject){
